@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(102, 169, 214);
+
+  .header-content {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+
+    nav {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      align-content: center;
+      transform: translate(0%, -50%);
+
+      .nav-link {
+        width: 100%;
+        text-align: center;
+      }
+
+      ul {
+        list-style-type: none;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        padding-inline-start: 0px;
+
+        li {
+          display: inline-block;
+          color: black;
+        }
+
+        li:hover {
+          color: black;
+        }
+
+        button {
+          margin: 15px;
+        }
+      }
+    }
+  }
+}
